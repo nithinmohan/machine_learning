@@ -37,7 +37,7 @@ def exp():
 
 	t=t_creator(polynomial)
 
-	all_points=[]
+	all_points=np.array([])
 	for i in range(0,100):
 		temp_point=get_random_point()
 		temp_point=np.append(temp_point,1)
